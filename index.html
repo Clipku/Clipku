@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home" class="page">
+        <canvas id="fireworks"></canvas>
+        <div class="content">
+            <h1>Happy New Year 2025 🎉</h1>
+            <p>Masukkan nama Anda untuk bergabung dalam perayaan ini:</p>
+            <input type="text" id="username" placeholder="Masukkan nama Anda...">
+            <button id="submitName">Masuk</button>
+        </div>
+    </div>
+
+    <div id="message" class="page hidden">
+        <h2>Selamat Tahun Baru, <span id="displayName"></span>!</h2>
+        <p>Semoga tahun ini membawa kebahagiaan, kesuksesan, dan keberuntungan untukmu! 🎆</p>
+        <button id="nextButton">Lanjut</button>
+    </div>
+
+    <div id="goodbye" class="page hidden">
+        <h3>The next content, see you soon!</h3>
+        <p>Salam hangat,<br>Uddin</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
